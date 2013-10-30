@@ -1,7 +1,7 @@
 class n98magerun(
   $php_package = 'php5-cli'
 ) {
-  include augeas
+#  include augeas
 
   exec { 'download n98-magerun':
     command => 'curl -o /usr/local/bin/n98-magerun.phar https://raw.github.com/netz98/n98-magerun/master/n98-magerun.phar',
